@@ -1,18 +1,18 @@
+
 * {
     box-sizing: border-box;
 }
 
-html,body {
+ html,body {
     margin: 0;
 }
 .masthead {
     min-height: 150px;
     background-color: black;
-}
 
+ }
 
-
-.menu-items a  {
+ .menu-items a  {
     float: right;
     margin: 10px;
     color: white;
@@ -25,11 +25,11 @@ html,body {
     letter-spacing: 2px;
 }
 
-.menu-items-bottom {
+ .menu-items-bottom {
     text-align: center;
 }
 
-.menu-items-bottom a {
+ .menu-items-bottom a {
     margin: 10px;
     color: white;
     display: inline-block;
@@ -41,39 +41,39 @@ html,body {
     letter-spacing: 2px;
 }
 
-.menu-items a:hover {
+ .menu-items a:hover {
     background-color: lightgray;
     color: black;
 }
 
-.menu-items a.current-page {
+ .menu-items a.current-page {
     border-bottom: 2px solid white;
 }
 
-.menu-items-bottom a:hover {
+ .menu-items-bottom a:hover {
     background-color: lightgray;
     color: black;
 }
 
-.menu-items-bottom a.current-page {
+ .menu-items-bottom a.current-page {
     border-bottom: 2px solid white;
 }
 
-.menu-items {
+ .menu-items {
     padding: 50px 10px;
 }
 
-#logo {
+ #logo {
     float: left;
     padding: 1.2em;
     margin: 15px
 }
 
-#site-title:hover {
+ #site-title:hover {
     font-size: 300%;
 }
 
-#site-title {
+ #site-title {
     float: left;
     padding: 10px;
     text-decoration: none;
@@ -81,10 +81,10 @@ html,body {
     margin: 40px 10px;
     font-size: 290%;
     color: white;
-  
-}
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+ }
+
+ /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
 @media screen and (max-width: 750px) {
   .menu-items a {
     float: none;
@@ -95,28 +95,28 @@ html,body {
         display: block;
         text-align: center;
 
-       
-    }
+
+     }
     #site-title {
         float: none;
         display: block;
         text-align: center;
- 
-    }
-    
-  }
 
-.mid-body {
+     }
+
+   }
+
+ .mid-body {
     background-color:#dddddd;
     min-height: 700px;
-    
-}
 
-.footer {
+ }
+
+ .footer {
     background-color: #222222;
 }
 
-.row1 h2 {
+ .row1 h2 {
     color: white;
     font: 30px Helvetica Arial sans serif;
     text-align: center;
@@ -134,11 +134,13 @@ svg {
     box-sizing: 10px 10px 10px 10px;
 }
 
-.social {
+ .social {
     text-align: center;
 }
 
-.social a {
+ .social a {
     padding-left: 20px;
+} 
 
-}
+
+

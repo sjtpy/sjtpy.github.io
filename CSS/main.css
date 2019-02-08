@@ -8,9 +8,9 @@ html,body {
 .masthead {
     min-height: 150px;
     background-color: black;
-a {
-    text-decoration:none;
-}
+
+
+
 
 .menu-items a  {
     float: right;
@@ -140,4 +140,5 @@ svg {
 
 .social a {
     padding-left: 20px;
+    text-decoration: none;
 }
